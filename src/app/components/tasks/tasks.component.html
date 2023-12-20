@@ -1,0 +1,10 @@
+<div>
+  <h3>Here you will find the list of the tasks!</h3>
+
+  <app-task-item
+    *ngFor="let task of tasks"
+    [task]="task"
+    (deleteTask)="deleteTask(task)"
+    (toggleReminder)="toggleReminder(task)"
+  ></app-task-item>
+</div>

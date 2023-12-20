@@ -1,0 +1,10 @@
+<div
+  [ngClass]="{ reminder: task.reminder }"
+  class="taskcard"
+  (dblclick)="onDoubleClick(task)"
+>
+  <h4>{{ task.text }}</h4>
+  <p>{{ task.day }}</p>
+
+  <button class="deleteItem" (click)="deleteItem(task)">Delete</button>
+</div>

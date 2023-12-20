@@ -1,0 +1,23 @@
+.taskcard{
+    border: 1px solid red($color: #e28585);
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    width: 25%;
+}
+
+.deleteItem{
+    height: 40px;
+    outline: none;
+    border: 1px solid #e28585;
+    background: transparent;
+    width: 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reminder{
+    border-left: 4px solid green;
+}
